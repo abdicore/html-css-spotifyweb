@@ -1,0 +1,26 @@
+/* css reset */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* utility */
+
+.upper-content {
+    display: flex;
+    height: calc(100vh - 100px);
+    background-color: #141922;
+}
+
+footer {
+    height: 150px;
+    background-color: #282828;
+}
+
+.sidebar {
+    width: 100px;
+    background-color: black;
+}
