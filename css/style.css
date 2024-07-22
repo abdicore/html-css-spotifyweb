@@ -54,6 +54,40 @@ main {
 p {
     color: white;
 }
+.box { 
+    border: 1px dashed white;
+}
+
+
+/* SIDEBAR */
+
+.side-conteiner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    flex-basis: 40px;
+}
+
+.home {
+    flex-basis: 80px;
+}
+
+.playlist{
+    color: white;
+    flex-basis: 0;
+    flex-grow: 1;
+    overflow-y: auto
+
+    
+}
+
+.author {
+    flex-basis: 50px;
+}
+
 
 
 /* MAIN HEADER */
