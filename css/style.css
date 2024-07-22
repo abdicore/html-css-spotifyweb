@@ -14,7 +14,6 @@ body {
     height: calc(100vh - 100px);
 
 
-    background-color: green;
 }
 
 footer {
@@ -33,4 +32,18 @@ main {
     overflow-y: auto;
     background-color: #141922;
 
+}
+
+
+.main-header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+p {
+    color: white;
 }
