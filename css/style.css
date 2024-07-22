@@ -12,15 +12,25 @@ body {
 .upper-content {
     display: flex;
     height: calc(100vh - 100px);
-    background-color: #141922;
+
+
+    background-color: green;
 }
 
 footer {
-    height: 150px;
+    height: 100px;
     background-color: #282828;
 }
 
 .sidebar {
-    width: 100px;
+    flex-basis: 220px;
+    flex-shrink: 0;
     background-color: black;
+}
+
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+    background-color: #141922;
+
 }
