@@ -7,7 +7,11 @@ body {
 }
 
 
-/* utility */
+/* generic */
+
+body {
+    font-family: sans-serif;
+}
 
 .upper-content {
     display: flex;
@@ -44,6 +48,53 @@ main {
 
 }
 
+
+/* utility */
+
 p {
     color: white;
+}
+
+
+/* MAIN HEADER */
+.main-header {
+    padding-right: 20px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px 45px;
+}
+
+
+
+
+
+/* FOOTER */
+
+.row-footer {
+    height: 100%;
+    display: flex;
+}
+
+.col-left {
+    flex-basis: 25%;
+    border: 1px dashed white;
+}
+
+.col-center {
+    flex-basis: 50%;
+    border: 1px dashed white;
+}
+
+.col-right {
+    flex-basis: 25%;
+    border: 1px dashed white;
 }
