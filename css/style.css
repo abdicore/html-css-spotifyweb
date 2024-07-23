@@ -58,6 +58,10 @@ UL {
     color: #6a6a6a;
 }
 
+a {
+    text-decoration: none;
+    color: #6a6a6a;
+}
 
 /* utility */
 
@@ -192,18 +196,21 @@ h6 {
     color: white;
     border: 1px solid white;
     border-radius: 25px;
-    padding: 5px 45px;
+    padding: 5px 25px;
 }
 
 .row-card {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
-    margin-right: 10px;
+    margin-left: -7px;
+    padding: 7px;
     min-height: 100px;
-    flex-basis: 20%;
+    flex-basis: 15%;
 }
+
 
 .d-flex li {
     font-size: 12px;
@@ -235,3 +242,10 @@ h6 {
     flex-basis: 25%;
     border: 1px dashed white;
 }
+
+
+
+
+
+
+
