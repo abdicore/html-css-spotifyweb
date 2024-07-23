@@ -9,6 +9,10 @@ body {
 
 /* generic */
 
+img {
+    max-width: 100%;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -26,7 +30,7 @@ footer {
 }
 
 .sidebar {
-    flex-basis: 220px;
+    flex-basis: 250px;
     flex-shrink: 0;
     background-color: black;
 }
@@ -48,6 +52,12 @@ main {
 
 }
 
+UL {
+    padding: 0;
+    list-style-type: none;
+    color: #6a6a6a;
+}
+
 
 /* utility */
 
@@ -58,22 +68,85 @@ p {
     border: 1px dashed white;
 }
 
+h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    font-size: 10px;
+    color: #6a6a6a
+    ;
+}
+
+h6 {
+    font-size: 10px;
+    color: #6a6a6a
+    ;
+}
+
+.img-size25 {
+    padding-right: 5px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.img-size {
+    height: 50px;
+}
+
+.b-radius50 {
+    border-radius: 50%;
+}
+
+.d-flex {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
 
 /* SIDEBAR */
 
 .side-conteiner {
+    margin: 0 auto;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
-
+/* HOME-SIDEBAR */
 .logo {
     flex-basis: 40px;
+    background-size: cover;
+    padding: 20px 0;
 }
 
 .home {
     flex-basis: 80px;
 }
+
+.home ul {
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.home li {
+    padding-bottom: 10px;
+}
+
+/* PLAYLIST-SIDEBAR */
 
 .playlist{
     color: white;
@@ -81,12 +154,21 @@ p {
     flex-grow: 1;
     overflow-y: auto
 
-    
 }
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #6a6a6a;
+}
+
+/* AUTHOR:SIDEBAR */
 
 .author {
     flex-basis: 50px;
 }
+
+
 
 
 
@@ -98,6 +180,12 @@ p {
     align-items: center;
 }
 
+.main-conteiner {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -105,6 +193,21 @@ p {
     border: 1px solid white;
     border-radius: 25px;
     padding: 5px 45px;
+}
+
+.row-card {
+    display: flex;
+}
+
+.card {
+    margin-right: 10px;
+    min-height: 100px;
+    flex-basis: 20%;
+}
+
+.d-flex li {
+    font-size: 12px;
+    margin-right: 15px;
 }
 
 
