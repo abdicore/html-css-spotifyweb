@@ -137,6 +137,10 @@ h6 {
     padding: 20px 0;
 }
 
+.logo-mobile {
+    display: none;
+}
+
 .home {
     flex-basis: 80px;
 }
@@ -185,7 +189,8 @@ h6 {
 }
 
 .main-conteiner {
-    width: 90%;
+    width: 100%;
+    padding: 0px 10px;
     height: 100%;
     margin: 0 auto;
 }
@@ -244,7 +249,54 @@ h6 {
 }
 
 
+.d-none {
+    display: ;
+}
 
+
+
+
+/* media query */
+
+@media screen and (max-width: 880px) { 
+    .card {
+        flex-basis: 20%;
+    }    
+}
+
+@media screen and (max-width: 680px) { 
+    .card {
+        flex-basis: 45%;
+    }    
+}
+
+
+@media screen and (max-width: 480px) { 
+    .card {
+        flex-basis: 45%;
+    } 
+    .logo-main {
+        display: none;
+    }
+    .logo-mobile {
+        display: none;
+    }
+    .d-none {
+        display: none;
+    }
+    
+    p {
+        display: none;
+    }
+
+    .sidebar {
+        flex-basis: 50px;
+    }
+
+    .logo-mobile {
+        display: inline-block;
+    }
+}
 
 
 
